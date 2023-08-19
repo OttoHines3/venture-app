@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "venture-app"
+client_id = "494976cd839ff4af8c9c516bcb970389"
+application_url = "https://cells-invention-monsters-tape.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://cells-invention-monsters-tape.trycloudflare.com/auth/callback",
+  "https://cells-invention-monsters-tape.trycloudflare.com/auth/shopify/callback",
+  "https://cells-invention-monsters-tape.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-07"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "quickstart-21d1231f.myshopify.com"
