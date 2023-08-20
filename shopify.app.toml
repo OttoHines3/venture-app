@@ -2,7 +2,7 @@
 
 name = "venture-app"
 client_id = "494976cd839ff4af8c9c516bcb970389"
-application_url = "https://cells-invention-monsters-tape.trycloudflare.com"
+application_url = "https://naturally-tears-rr-nutrition.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://cells-invention-monsters-tape.trycloudflare.com/auth/callback",
-  "https://cells-invention-monsters-tape.trycloudflare.com/auth/shopify/callback",
-  "https://cells-invention-monsters-tape.trycloudflare.com/api/auth/callback"
+  "https://naturally-tears-rr-nutrition.trycloudflare.com/auth/callback",
+  "https://naturally-tears-rr-nutrition.trycloudflare.com/auth/shopify/callback",
+  "https://naturally-tears-rr-nutrition.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
